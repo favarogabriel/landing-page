@@ -5,30 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="/assets/css/menu.css">
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/elements.css">
+    <link rel="stylesheet" href="/assets/css/classes.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
-<body class="main-bg">
-    <aside class="menu">
-        <section class="main-content menu-content">
+<body>
+    <aside class="menu white-bg">
+        <nav class="menu-content">
             <h1>
-                <a href="#">LOGO</a>
+                <a href="#home">LOGO</a>
             </h1>
                 <nav>
                     <ul>
-                        <li><a href="#">Intro</a></li>
-                        <li><a href="#">Top 3</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#intro">Intro</a></li>
+                        <li><a href="#grid-one">Grid One</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#grid-two">Grid Two</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-        </section>
+            </nav>
     </aside>
 
-    <section class="section"></section>
-    <section class="section"></section>
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus visible pseudo-class in CSS and associeated devtools, and te complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg" alt="O desenho de um homem segurando o símbolo do CSS 3, uma mulher empurrando o símbolo do JavaScript e outro homem segurando o símbolo do HTML 5.">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>News coverage and some surprises</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas animi ullam, eveniet error doloribus nisi ea. Itaque voluptatem quidem eveniet quo fugiat nisi iure vitae repellat. Dolore labore deleniti neque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum excepturi eaque veritatis accusantium! Non inventore laborum ex consequuntur cum iusto, expedita vitae quod corrupti sed? Distinctio cum mollitia veritatis repudiandae?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur velit blanditiis veritatis tempora sunt praesentium. Doloremque dicta sed cumque. Necessitatibus maxime aperiam rerum optio aut? Dignissimos facilis reiciendis magnam cum.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente labore dolorum quasi architecto tempora dolorem a aliquam in, doloribus sit quos, sunt illo aut praesentium officiis consequatur eius adipisci minus!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor inventore cupiditate amet illum quibusdam eligendi ratione iusto maxime, tenetur consequuntur sit possimus 
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor inventore cupiditate amet illum quibusdam eligendi ratione iusto maxime, tenetur consequuntur sit possimus 
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="Random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="Random image from unsplash">
+                </div>
+                <div class="gallery-img"> 
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="Random image from unsplash">
+                </div>
+                <div class="gallery-img"> 
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="Random image from unsplash">
+                </div>
+                <div class="gallery-img"> 
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="Random image from unsplash">
+                </div>
+                <div class="gallery-img"> 
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="Random image from unsplash">
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente labore dolorum quasi architecto tempora dolorem a aliquam in, doloribus sit quos, sunt illo aut praesentium officiis consequatur eius adipisci minus!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor inventore cupiditate amet illum quibusdam eligendi ratione iusto maxime, tenetur consequuntur sit possimus 
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor inventore cupiditate amet illum quibusdam eligendi ratione iusto maxime, tenetur consequuntur sit possimus 
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas animi ullam, eveniet error doloribus nisi ea. Itaque voluptatem quidem eveniet quo fugiat nisi iure vitae repellat. Dolore labore deleniti neque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum excepturi eaque veritatis accusantium! Non inventore laborum ex consequuntur cum iusto, expedita vitae quod corrupti sed? Distinctio cum mollitia veritatis repudiandae?</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+                <div class="intro-text-content">
+                    <h2>January brings us Firefox 85</h2>
+                    <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus visible pseudo-class in CSS and associeated devtools, and te complete removal of Flash support from Firefox.</p>
+                </div>
+                <div class="intro-img">
+                    <img src="assets/img/contact-img.svg" alt="O desenho de um homem segurando o símbolo do CSS 3, uma mulher empurrando o símbolo do JavaScript e outro homem segurando o símbolo do HTML 5.">
+                </div>
+                <div class="contact-form">
+                    <fieldset class="form-grid">
+                        <legend>Contact me</legend>
+                        <div class="form-group">
+                            <label for="first-name">First name</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </div>
+        </div>
+
+        <footer id="footer" class="white-bg footer">
+            <p><a target="_blank" href="https://github.com/daicokk" >Feito com <span class="heart">❤</span> por Gabriel Favaro</a></p>
+        </footer>
+    </section>
+
 </body>
 </html>
