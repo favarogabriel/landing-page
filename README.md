@@ -7,5 +7,3 @@ Fique à vontade para usar o mesmo como material de estudo, todas (ou quase toda
 Caso tenha ficado confuso e queira aprender mais sobre tudo isso, incluindo JavaScript e várias outras tecnologias para se tornar um Desenvolvedor Full-Stack, recomendo fortemente que você adquira o curso do professor, que particularmente, foi a melhor decisão que eu tomei para ingressar na programação.
 
 Link: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
-
-<img src="https://imgur.com/JJHIk43" alt"Imagem">
