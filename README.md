@@ -1,6 +1,6 @@
 # Landing-Page
-Pasta destinada a landing page criada por mim sob auxílio do professor Luiz Otávio Miranda. 
-					
+
+## 📑 Descrição
 O site tem como objetivo mostrar o que eu aprendi durante a introdução básica de HTML e CSS, nele todo eu só uso as duas.
 Fique à vontade para usar o mesmo como material de estudo, todas (ou quase todas) linhas de códigos que eu codei estão com comentários para orientação.
 
@@ -13,3 +13,9 @@ Link: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avan
 ![Screenshot 2021-12-31 173519](https://user-images.githubusercontent.com/89041502/147838406-cfd49190-a614-425f-a38e-7edfdeceb99e.png)
 
 ![Screenshot 2021-12-31 173633](https://user-images.githubusercontent.com/89041502/147838413-8cfc3ae7-c758-4d04-8f9d-021eefdc124d.png)
+
+### 👨‍💻 Tecnologias
+Foi utilizado na criação da aplicação:
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
