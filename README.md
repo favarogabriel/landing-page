@@ -15,7 +15,7 @@ Link: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avan
 ![Screenshot 2021-12-31 173633](https://user-images.githubusercontent.com/89041502/147838413-8cfc3ae7-c758-4d04-8f9d-021eefdc124d.png)
 
 ### 👨‍💻 Tecnologias
-Foi utilizado na criação da aplicação:
+Os códigos foram escritos nas linguagens:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
